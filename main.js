@@ -1,6 +1,6 @@
 document.querySelector('.btn').addEventListener('click' , countSum)
 document.querySelector('.btnGT').addEventListener('click' , count)
-document.querySelector('.btnDiv').addEventListener('click' , Newdiv)
+document.querySelector('.btnDiv').addEventListener('click' , newDiv)
 
 
 // BAI TAP 1 
@@ -44,7 +44,7 @@ function count() {
 
 // BAI TAP 4
 
-function Newdiv () {
+function newDiv () {
 
     for (var i = 1; i <= 10; i++ ) {
         var pDiv = document.createElement("div");
